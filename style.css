@@ -48,12 +48,30 @@ h1{
         rgba(44, 65, 255, 0.959) 100% );
     align-items: left;
     margin: 10px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.about-me{
     display: flex;
+    padding: 2rem;
+}
+
+.about-me p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
+    color: white;
+    
 }
 
 img{
     width: auto;
     height: 450px;
+    padding-right: 1rem;
 }
 
 div{
