@@ -136,6 +136,31 @@ div#contact-box{
     color: #ffffff;
 }
 
+.project-box h3{
+    border: 3px solid #ffffff;
+    color: whitesmoke;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+.project-box img{
+    width: 300px;
+    height:150px;
+    float: left;
+    padding-left: 3rem; 
+    padding-top: 1rem;
+}
+
+.project-box p{
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    padding-right: 1rem;
+}
 .sidebar {
     grid-area: sidebar;
     background-color: black;
@@ -143,6 +168,7 @@ div#contact-box{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: x-large ;
 }
 
 .sidebar h3{
@@ -156,6 +182,10 @@ div#contact-box{
 
 .sidebar ul{
     color: whitesmoke;
+}
+
+.sidebar li{
+    padding: 1.5rem;
 }
 
 .box-1{
@@ -225,8 +255,8 @@ div#contact-box{
 }
 
 .box-5 img {
-    width: 275px;
-    height: 220px;
+    width: 310px;
+    height: 250px;
     padding-left: 0.9rem;
     padding-right: 0.9rem;
     border: 3px solid whitesmoke;
